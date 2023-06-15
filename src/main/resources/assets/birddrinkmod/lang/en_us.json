@@ -1,4 +1,6 @@
 {
   "item.birddrinkmod.rainbonium" : "Rainbonium",
-  "item.birddrinkmod.raw_rainbonium" : "Raw Rainbonium"
+  "item.birddrinkmod.raw_rainbonium" : "Raw Rainbonium",
+
+  "itemGroup.orestab" : "Mod Ores"
 }

@@ -12,9 +12,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BirddrinkMod.MOD_ID);
     public static final RegistryObject<Item> RAINBONIUM = ITEMS.register("rainbonium",
-            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.ORES_TAB)));
     public static final RegistryObject<Item> RAW_RAINBONIUM = ITEMS.register("raw_rainbonium",
-            ()-> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.ORES_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register((eventBus));
