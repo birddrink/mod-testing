@@ -1,6 +1,7 @@
 package net.birddrink.birddrinkmod;
 
 import com.mojang.logging.LogUtils;
+import net.birddrink.birddrinkmod.block.ModBlocks;
 import net.birddrink.birddrinkmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -24,6 +25,7 @@ public class BirddrinkMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

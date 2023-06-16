@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "birddrinkmod:block/deepslate_rainbonium_ore"
+  }
+}

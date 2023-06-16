@@ -2,5 +2,9 @@
   "item.birddrinkmod.rainbonium" : "Rainbonium",
   "item.birddrinkmod.raw_rainbonium" : "Raw Rainbonium",
 
+  "block.birddrinkmod.rainbonium_block" : "Block of Rainbonium",
+  "block.birddrinkmod.rainbonium_ore" : "Rainbonium Ore",
+  "block.birddrinkmod.deepslate_rainbonium_ore" : "Deepslate Rainbonium Ore",
+
   "itemGroup.orestab" : "Mod Ores"
 }
